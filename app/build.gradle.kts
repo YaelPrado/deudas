@@ -22,10 +22,10 @@ android {
 
     buildTypes {
         debug {
-            buildConfigField("String", "BASE_URL", "\"http://10.0.2.2:3000/\"")
+            buildConfigField("String", "BASE_URL", "\"https://44-206-23-174.sslip.io/\"")
         }
         release {
-            buildConfigField("String", "BASE_URL", "\"https://tu-servidor.com/\"")
+            buildConfigField("String", "BASE_URL", "\"https://44-206-23-174.sslip.io/\"")
             optimization {
                 enable = false
             }
